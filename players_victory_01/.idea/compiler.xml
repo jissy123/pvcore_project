@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="customer-service" />
+        <module name="core-pvcore" />
+        <module name="pvcore-api-gateway" />
+        <module name="web-server" />
+        <module name="register-eureka-servers" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core-pvcore" target="1.8" />
+      <module name="customer-service" target="1.8" />
+      <module name="E-Comm" target="1.5" />
+      <module name="pvcore-api-gateway" target="1.8" />
+      <module name="register-eureka-servers" target="1.8" />
+      <module name="web-pvcore" target="1.8" />
+      <module name="web-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core-pvcore" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
+      <module name="pvcore-api-gateway" options="-parameters" />
+      <module name="register-eureka-servers" options="-parameters" />
+      <module name="web-pvcore" options="-parameters" />
+      <module name="web-server" options="-parameters" />
+    </option>
+  </component>
+</project>
